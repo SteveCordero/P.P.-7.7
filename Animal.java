@@ -12,6 +12,15 @@ public class Animal
     this.sound = sound;
   }//end constructor
 
+  public String getType()
+  {
+    return type;
+  }//end getter for type 
+  public String getSound()
+  {
+    return sound;
+  }//end sound getter
+
   public String toString()
   {
     return "name = " + name +
