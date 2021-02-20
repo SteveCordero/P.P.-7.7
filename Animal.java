@@ -20,6 +20,10 @@ public abstract class Animal
   {
     return sound;
   }//end sound getter
+  public String getName()
+  {
+    return name;
+  }
 
   public String toString()
   {
