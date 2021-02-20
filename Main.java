@@ -2,13 +2,13 @@ class Main
 {
   public static void main(String[] args) 
   {
-    Animal gorge = new Animal("Gorge", "rolly tooth", " roggle");
+    Cow james = new Cow("james", "Cow", "MOO", "white and black");
 
-    Cow James = new Cow("james", "Cow", "MOO", "white and black");
+    Chick chow = new Chick("Chow", "Chicken", "peep or cheep", 6);
 
-    System.out.println(James.getSound());
-    System.out.println(James.response());
 
-    System.out.println(gorge.toString());
+    System.out.println(james.getSound());
+    System.out.println(james.response());
+    System.out.println(chow.getSound());
   }
 }
